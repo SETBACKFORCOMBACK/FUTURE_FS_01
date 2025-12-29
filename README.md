@@ -10,7 +10,7 @@ AI Enthusiast & Frontend Developer
 
 
 ## 📁 Repository
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-black?style=flat&logo=github)](https://github.com/SETBACKFORCOMBACK-FUTURE_FS_01)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-black?style=flat&logo=github)](https://github.com/SETBACKFORCOMBACK/FUTURE_FS_01.git)
 
 ## ✨ Features
 - **Responsive Design** - Works perfectly on desktop, tablet, mobile
