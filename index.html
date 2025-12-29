@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Imran Sheik | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a href="#home" class="logo">Imran<span>.</span></a>
+      <button class="nav-toggle" id="nav-toggle">☰</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="home" class="hero container">
+      <div class="hero-image">
+        <img src="./profile.jpg" alt="Imran Sheik" class="hero-avatar" />
+      </div>
+      <div class="hero-content">
+        <h1>Imran Sheik</h1>
+        <h2>AI Enthusiast & Frontend Developer</h2>
+        <p class="hero-subtitle">
+          Python | C | Web Development | Community Builder in AI
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary">View My Work</a>
+          <a href="#contact" class="btn outline">Get In Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+
+        <article class="project-card">
+          <div class="project-status completed">Completed</div>
+          <h3>Adin Fabrication Calculator</h3>
+          <p>
+            Professional web application for fabrication cost calculations,
+            helping Adin company streamline estimation with an intuitive interface.
+          </p>
+          <div class="tags">
+            <span>Web Development</span>
+            <span>JavaScript</span>
+            <span>Calculator Logic</span>
+            <span>UI/UX</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/SETBACKFORCOMBACK/adinn" target="_blank">
+              🔗 Code
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-status completed">Completed</div>
+          <h3>Symptom Buddy</h3>
+          <p>
+            Healthcare web application for patient symptom detection and analysis,
+            enabling users to identify potential health issues via a friendly interface.
+          </p>
+          <div class="tags">
+            <span>React</span>
+            <span>Healthcare Tech</span>
+            <span>Lovable</span>
+            <span>Symptom Analysis</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/SETBACKFORCOMBACK/lovable-symptom-buddy" target="_blank">
+              🔗 Code
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-status completed">Completed</div>
+          <h3>Symptom Sync Patient</h3>
+          <p>
+            Healthcare platform with landing page, comprehensive symptom form,
+            real-time patient dashboard, and secure communication for patients and doctors.
+          </p>
+          <div class="tags">
+            <span>Python</span>
+            <span>OOP</span>
+            <span>AI Integration</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/SETBACKFORCOMBACK/symptom-sync-patient" target="_blank">
+              🔗 Code
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-status completed">Completed</div>
+          <h3>E‑Commerce Website</h3>
+          <p>
+            Modern e‑commerce website featuring product listing, authentication‑enabled
+            login page, and user‑friendly shopping experience.
+          </p>
+          <div class="tags">
+            <span>Web Development</span>
+            <span>Authentication</span>
+            <span>JavaScript</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/SETBACKFORCOMBACK/e-com07" target="_blank">
+              🔗 Code
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-list">
+        <span>No‑Code Tools Expert</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>Python</span>
+        <span>C</span>
+        <span>SQL</span>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section container">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="contact-text">
+        Have an opportunity, collaboration, or question? Drop a message below.
+      </p>
+      <form class="contact-form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input id="name" type="text" placeholder="Your name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input id="email" type="email" placeholder="you@example.com" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" rows="4" placeholder="Write your message..." required></textarea>
+        </div>
+        <button type="submit" class="btn primary">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Imran Sheik. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
