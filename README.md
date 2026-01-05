@@ -6,10 +6,11 @@ AI Enthusiast & Frontend Developer
 **Python | C | Web Development | Community Builder in AI**
 
 ## 🚀 Live Demo
-[View Live Portfolio](https://your-netlify-url.netlify.app) ← Replace after deployment
+[View Live Portfolio]( https://grand-gumption-45872f.netlify.app/
+
 
 ## 📁 Repository
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-black?style=flat&logo=github)](https://github.com/SETBACKFORCOMBACK/portfolio-imran)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-black?style=flat&logo=github)](https://github.com/SETBACKFORCOMBACK/FUTURE_FS_01.git)
 
 ## ✨ Features
 - **Responsive Design** - Works perfectly on desktop, tablet, mobile
@@ -60,6 +61,8 @@ portfolio-imran/
 ├── index.html
 ├── style.css
 ├── script.js
+|------react.js
 ├── profile.jpg
 └── README.md      ← NEW FILE
 
+the deployed site in the netlify : https://grand-gumption-45872f.netlify.app/
