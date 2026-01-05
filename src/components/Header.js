@@ -39,7 +39,7 @@ const Header = ({ onNavClick }) => {
           </li>
           <li>
             <a 
-              href="/Imran_Sheik_Resume (1).pdf" 
+              href="/Imran_Sheik_Resume.pdf"
               target="_blank" 
               rel="noopener noreferrer"
               onClick={() => setIsMenuOpen(false)}
