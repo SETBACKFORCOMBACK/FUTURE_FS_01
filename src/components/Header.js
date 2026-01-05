@@ -37,6 +37,16 @@ const Header = ({ onNavClick }) => {
           <li>
             <a href="#contact" onClick={(e) => handleNavClick(e, 'contact')}>Contact</a>
           </li>
+          <li>
+            <a 
+              href="/Imran_Sheik_Resume (1).pdf" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Resume
+            </a>
+          </li>
         </ul>
       </nav>
     </header>
